@@ -1,0 +1,42 @@
+{
+  "name": "gallery_analyse",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build && npx cap sync",
+    "dev:static": "vite",
+    "build": "eslint ./src && tsc && vite build && npx cap sync",
+    "preview": "tsc && vite build && vite preview",
+    "open:ios": "npx cap open ios",
+    "run:ios": "eslint ./src && tsc && vite build && npx cap run ios"
+  },
+  "dependencies": {
+    "@capacitor-community/media": "^6.0.0",
+    "@capacitor-community/safe-area": "^6.0.0-alpha.6",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/ios": "^6.1.2",
+    "@capacitor/preferences": "^6.0.2",
+    "@mantine/core": "^7.12.1",
+    "@mantine/hooks": "^7.12.1",
+    "@turf/turf": "^7.1.0",
+    "capacitor-native-settings": "^6.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.2.0",
+    "vite": "^5.4.2"
+  }
+}

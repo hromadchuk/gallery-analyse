@@ -1,0 +1,7 @@
+.safeAreaTop {
+    height: env(safe-area-inset-top);
+}
+
+.safeAreaBottom {
+    height: env(safe-area-inset-bottom);
+}
