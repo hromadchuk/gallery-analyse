@@ -2,6 +2,8 @@
 
 An iOS app that does a bit of gallery travel analytics.
 
+<img src="screenshots.png" width="500" alt="screenshots">
+
 ## Getting Started
 
 To use this starter template, you'll need to have Node.js on machine.
