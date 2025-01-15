@@ -11,7 +11,7 @@ To use this starter template, you'll need to have Node.js on machine.
 Clone this repository:
 
 ```
-git clone git@github.com:hromadchuk/gallery_analyse.git
+git clone git@github.com:hromadchuk/gallery-analyse.git
 ```
 
 Install the dependencies:
